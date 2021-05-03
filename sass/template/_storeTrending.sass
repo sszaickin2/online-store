@@ -2,7 +2,7 @@
   width: 18.75rem
   display: flex
   justify-content: space-between
-  margin-left: 3rem
+  margin: 0.75rem 0 0 3rem
 
 .trending__link
   font-family: Lato
@@ -13,6 +13,7 @@
   color: #6F6E6E
   cursor: pointer
   text-transform: uppercase
+  position: relative
   &::after
     content: ""
     background: url(../img/catalog/arrow.svg) no-repeat center
@@ -70,8 +71,23 @@
 
 .scroll__point
   color: #C4C4C4
-  
 
+
+
+
+@media screen and ( max-width: 670px )
+  .store__nav--content
+    margin: 0.75rem 0 0 1rem
+  
+  .trending__link
+    font-size: 0.75rem
+
+
+@media screen and ( max-width: 600px )
+  .store__nav--content
+    width: 13rem
+    position: absolute
+    left: 3.125rem
 
 
   
