@@ -42,7 +42,6 @@ headerSearh.addEventListener('click', function () {
   lockSearch.classList.toggle('_searchactive');
 });
 
- 
 
 
 
