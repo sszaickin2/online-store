@@ -1362,6 +1362,12 @@ img {
   color: #F26376;
 }
 
+.product__button:hover {
+  background: #F26376;
+  color: #fff;
+  transition: all 1s;
+}
+
 .product__svg {
   padding-right: 1.875rem;
 }
